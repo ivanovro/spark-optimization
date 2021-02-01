@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "spark-optimization.history" . }}
+  labels:
+  {{- include "spark-optimization.commonLabels" . | indent 4 }}
+spec:
+  selector:
+    matchLabels:
+  {{- include "spark-optimization.historySelectorLabels" . | indent 6 }}
+  template:
+    metadata:
+      labels:
+    {{- include "spark-optimization.historySelectorLabels" . | indent 8 }}
+    spec:
+{{/*      hostname: {{ include "spark-optimization.name" . }}*/}}
+      containers:
+        - name: {{ include "spark-optimization.history" . }}
+          image: "{{ .Values.image.sparkHistory.repository }}:{{ .Values.image.sparkHistory.tag }}"
+          imagePullPolicy: {{ .Values.image.sparkHistory.pullPolicy }}
+          env:
+            - name: SPARK_HISTORY_OPTS
+              value: '-Dspark.history.fs.logDirectory=/opt/workspace'
+          resources:
+          {{- toYaml .Values.resources | nindent 12 }}
+          stdin: true
+          tty: true
+          ports:
+            - containerPort: {{.Values.services.sparkHistory.targetPort}}
+              name: ui-port
+          volumeMounts:
+          {{- include "spark-client.pod-volumeMounts-shared" . | nindent 10 }}
+      volumes:
+      {{- include "spark-optimization.pod-volumes-share-pvc" . | nindent 6 }}

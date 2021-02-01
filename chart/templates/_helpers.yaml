@@ -1,0 +1,80 @@
+{{- define "spark-optimization.name" -}}
+{{- printf "%s-%s" .Chart.Name .Release.Namespace | replace "+" "_" | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "spark-optimization.history" -}}
+{{ include "spark-optimization.name" . }}-history
+{{- end -}}
+
+{{- define "spark-optimization.master" -}}
+{{ include "spark-optimization.name" . }}-master
+{{- end -}}
+
+{{- define "spark-optimization.masterService" -}}
+spark-master
+{{- end -}}
+
+{{- define "spark-optimization.worker" -}}
+{{ include "spark-optimization.name" . }}-worker
+{{- end -}}
+
+{{- define "spark-optimization.jupyterlab" -}}
+{{ include "spark-optimization.name" . }}-jupyterlab
+{{- end -}}
+
+{{- define "spark-optimization.sparklint" -}}
+{{ include "spark-optimization.name" . }}-sparklint
+{{- end -}}
+
+{{- define "spark-optimization.pod-volumes-share-pvc" -}}
+- name: shared
+  emptyDir: {}
+{{/*  persistentVolumeClaim:*/}}
+{{/*    claimName: {{ .Values.sharedVolume.claimName }}*/}}
+{{- end -}}
+
+{{- define "spark-client.pod-volumeMounts-shared" -}}
+- name: shared
+  mountPath: {{ .Values.sharedVolume.mountPath }}
+{{- end -}}
+
+
+{{/* Common labels */}}
+{{- define "spark-optimization.commonLabels" -}}
+{{ include "spark-optimization.selectorLabels" . }}
+spark.instance: {{ include "spark-optimization.name" . }}
+helm.sh/chart: {{ include "spark-optimization.name" . }}
+app.kubernetes.io/name: {{ include "spark-optimization.name" . }}
+app.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/version: {{ .Chart.Version | quote }}
+app.kubernetes.io/managed-by: {{ .Release.Service }}
+{{- end -}}
+
+{{/* Selector labels */}}
+{{- define "spark-optimization.selectorLabels" }}
+app.instance: {{ include "spark-optimization.name" . }}
+{{- range $key, $val := .Values.appLabels.custom }}
+{{ $key }}: {{ $val }}
+{{- end }}
+{{- end -}}
+
+{{- define "spark-optimization.historySelectorLabels" }}
+{{ include "spark-optimization.selectorLabels" . }}
+component: spark-history
+{{- end -}}
+
+{{- define "spark-optimization.masterSelectorLabels" }}
+{{ include "spark-optimization.selectorLabels" . }}
+component: spark-master
+{{- end -}}
+
+{{- define "spark-optimization.workerSelectorLabels" }}
+{{ include "spark-optimization.selectorLabels" . }}
+component: spark-worker
+{{- end -}}
+
+{{- define "spark-optimization.jupyterSelectorLabels" }}
+{{ include "spark-optimization.selectorLabels" . }}
+component: jupyterlab
+{{- end -}}
+

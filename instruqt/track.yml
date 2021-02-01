@@ -1,0 +1,74 @@
+slug: spark-optimization
+id: 8izwilt0cbwz
+version: 0.0.1
+type: track
+title: Spark Optimization
+teaser: The Spark Optimization training
+description: Follow the instructions from the trainer
+icon: ""
+tags: []
+owner: godatadriven
+developers:
+- giovannilanzani@godatadriven.com
+- oleksandrabovkun@godatadriven.com
+private: true
+published: false
+challenges:
+- slug: training
+  id: 2fpjycvqtsct
+  type: challenge
+  title: Training
+  teaser: This is the Instruqt environment for the training
+  assignment: Follow the trainer
+  notes:
+  - type: text
+    contents: Nothing to see here. You need to wait a bit and then click Start!
+  tabs:
+  - title: jupyter
+    type: service
+    hostname: spark
+    port: 8888
+  - title: Terminal
+    type: terminal
+    hostname: spark
+  - title: SparkUI 4040
+    type: service
+    hostname: spark
+    port: 4040
+    new_window: true
+  - title: SparkUI 4041
+    type: service
+    hostname: spark
+    port: 4041
+    new_window: true
+  - title: Spark Master 8080
+    type: service
+    hostname: spark
+    port: 8080
+  - title: Spark Master 7070
+    type: service
+    hostname: spark
+    port: 7070
+    new_window: true
+  - title: Spark History Server
+    type: service
+    hostname: spark
+    port: 18080
+    new_window: true
+  - title: Sparklint
+    type: service
+    hostname: spark
+    port: 23763
+    new_window: true
+  - title: Sparkworker 2
+    type: service
+    hostname: spark
+    port: 8082
+    new_window: true
+  - title: SparkWorker 1
+    type: service
+    hostname: spark
+    port: 8081
+  difficulty: basic
+  timelimit: 500
+checksum: "4248628888657316105"

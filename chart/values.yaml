@@ -1,0 +1,88 @@
+replicaCount: 1
+nameOverride: ""
+fullnameOverride: ""
+
+sparkVersion: 3.0.0
+hadoopVersion: 2.7
+
+image:
+  sparkMaster:
+    repository: rivanov/spark-master
+    tag: latest
+    pullPolicy: Always
+  sparkWorker:
+    repository: rivanov/spark-worker
+    tag: latest
+    pullPolicy: IfNotPresent
+  sparkHistory:
+    repository: rivanov/spark-history
+    tag: latest
+    pullPolicy: IfNotPresent
+  jupyterLab:
+    repository: rivanov/jupyterlab
+    tag: latest
+    pullPolicy: IfNotPresent
+  sparkLint:
+    repository: roboxue/sparklint
+    tag: latest
+    pullPolicy: IfNotPresent
+
+
+services:
+  sparkMaster:
+    type: ClusterIP
+    uiPort: 8080
+    uiTargetPort: 8080
+    apiPort: 7077
+    apiTargetPort: 7077
+    annotations: {}
+  sparkWorker:
+    type: ClusterIP
+    port: 8081
+    targetPort: 8081
+    annotations: {}
+  sparkHistory:
+    type: ClusterIP
+    port: 18080
+    targetPort: 18080
+    annotations: {}
+  jupyterLab:
+    type: ClusterIP
+    port: 8888
+    targetPort: 8888
+    sparkUiPort: 4040
+    sparkUiTargetPort: 4040
+    sparkUiPort2: 4041
+    sparkUiTargetPort2: 4041
+    annotations: {}
+  sparkLint:
+    type: ClusterIP
+    port: 80
+    targetPort: 18080
+    annotations: {}
+
+appLabels:
+  # custom:
+  #   key: value
+  custom: {}
+
+sharedVolume:
+  claimName: shared-vol-pvc
+  #todo: proper build path
+  mountPath: /opt/workspace/logs
+
+  # Create a new PVC with provided specs
+  # note, it will be deleted when helm uninstalls the chart
+  new:
+    create: false
+    storageSize: 2Gi
+    storageClass: netapp-nfs
+    claimName: spark-history-nfs-pvc
+
+resources:
+  limits:
+    cpu: 1
+    memory: 1Gi
+  requests:
+    cpu: 1
+    memory: 1Gi

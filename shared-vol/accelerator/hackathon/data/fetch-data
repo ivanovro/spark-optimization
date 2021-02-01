@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+PROGDIR="${0%/*}"
+cd "${PROGDIR}"
+
+download() {
+  _resource="$1.zip"
+  if [ ! -r "${_resource}" ]
+  then
+    curl -L -O "https://storage.googleapis.com/academy-data/${_resource}"
+  fi
+  unzip -o "${_resource}"
+}
+
+download apachelog

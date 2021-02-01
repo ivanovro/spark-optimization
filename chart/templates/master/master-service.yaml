@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "spark-optimization.name" . }}-master-ui
+  labels:
+  {{- include "spark-optimization.commonLabels" . | indent 4 }}
+spec:
+  clusterIP: None
+  type: {{ .Values.services.sparkMaster.type }}
+  selector:
+  {{- include "spark-optimization.masterSelectorLabels" . | indent 4 }}
+  ports:
+    - protocol: TCP
+      port: {{ .Values.services.sparkMaster.uiPort }}
+      targetPort: {{ .Values.services.sparkMaster.uiTargetPort }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "spark-optimization.masterService" . }}
+  labels:
+  {{- include "spark-optimization.commonLabels" . | indent 4 }}
+spec:
+  clusterIP: None
+  type: {{ .Values.services.sparkMaster.type }}
+  selector:
+  {{- include "spark-optimization.masterSelectorLabels" . | indent 4 }}
+  ports:
+    - protocol: TCP
+      port: {{ .Values.services.sparkMaster.apiPort }}
+      targetPort: {{ .Values.services.sparkMaster.apiTargetPort }}

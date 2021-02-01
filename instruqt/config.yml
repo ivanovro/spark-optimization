@@ -1,0 +1,5 @@
+version: "2"
+virtualmachines:
+- name: spark
+  image: instruqt-godatadriven/spark-optimization
+  machine_type: n1-highmem-2

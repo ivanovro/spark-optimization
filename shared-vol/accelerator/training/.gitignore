@@ -1,0 +1,8 @@
+*.DS_Store
+*MACOSX*
+*/metastore_db/*
+*/spark-warehouse/*
+
+# Editors
+.vscode
+.idea

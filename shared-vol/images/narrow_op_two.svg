@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="27 723 1972 936" width="1972pt" height="78pc" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2017-12-12 09:28:12 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Noteworthy" font-size="17" panose-1="2 0 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-166.25" underline-thickness="25" slope="0" x-height="537.5" cap-height="867.5" ascent="1279.9988" descent="-320.00732" font-weight="300">
+      <font-face-src>
+        <font-face-name name="Noteworthy-Light"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Noteworthy" font-size="14" panose-1="2 0 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-166.25" underline-thickness="25" slope="0" x-height="537.5" cap-height="867.5" ascent="1279.9988" descent="-320.00732" font-weight="300">
+      <font-face-src>
+        <font-face-name name="Noteworthy-Light"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Avenir" font-size="24" panose-1="2 11 7 3 2 2 3 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="480" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Avenir-Heavy"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Avenir" font-size="32" panose-1="2 0 5 3 2 0 0 2 0 3" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Avenir-Book"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>narrow op two</title>
+    <rect fill="white" width="1971" height="935"/>
+    <g>
+      <title>Layer 2</title>
+      <rect x="915.5" y="797.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(929.5 799.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.31625">e_1;5</tspan>
+      </text>
+      <text transform="translate(915.5 768.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="41.65">Block_1</tspan>
+      </text>
+      <path d="M 1135 940.5 C 1152.05 940.5 1165.845 926.55 1165.845 909.5 L 1166 754.5 C 1166 737.45 1152.05 723.5 1135 723.5 L 887 723.5 C 869.95 723.5 856 737.45 856 754.5 L 856 909.5 C 856 926.55 869.95 940.5 887 940.5 L 825 940.5 L 825 971.5 L 1197 971.5 L 1197 940.5 L 1135 940.5 Z M 887 754.5 L 1135 754.5 L 1135 909.5 L 887 909.5 L 887 754.5 Z" fill="black"/>
+      <text transform="translate(957 931.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".24" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.352" y="24" textLength="84.408">orker A</tspan>
+      </text>
+      <rect x="915.5" y="1146.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(929.5 1148.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.2525">e_1;6</tspan>
+      </text>
+      <text transform="translate(915.5 1117.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="47.775">Block_2</tspan>
+      </text>
+      <path d="M 1135 1289.5 C 1152.05 1289.5 1165.845 1275.55 1165.845 1258.5 L 1166 1103.5 C 1166 1086.45 1152.05 1072.5 1135 1072.5 L 887 1072.5 C 869.95 1072.5 856 1086.45 856 1103.5 L 856 1258.5 C 856 1275.55 869.95 1289.5 887 1289.5 L 825 1289.5 L 825 1320.5 L 1197 1320.5 L 1197 1289.5 L 1135 1289.5 Z M 887 1103.5 L 1135 1103.5 L 1135 1258.5 L 887 1258.5 L 887 1103.5 Z" fill="black"/>
+      <text transform="translate(958 1282.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".128" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.24" y="24" textLength="82.632">orker B</tspan>
+      </text>
+      <rect x="915.5" y="1484.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(929.5 1486.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.975">e_1;3</tspan>
+      </text>
+      <text transform="translate(915.5 1455.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="48.615">Block_3</tspan>
+      </text>
+      <path d="M 1135 1627.5 C 1152.05 1627.5 1165.845 1613.55 1165.845 1596.5 L 1166 1441.5 C 1166 1424.45 1152.05 1410.5 1135 1410.5 L 887 1410.5 C 869.95 1410.5 856 1424.45 856 1441.5 L 856 1596.5 C 856 1613.55 869.95 1627.5 887 1627.5 L 825 1627.5 L 825 1658.5 L 1197 1658.5 L 1197 1627.5 L 1135 1627.5 Z M 887 1441.5 L 1135 1441.5 L 1135 1596.5 L 887 1596.5 L 887 1441.5 Z" fill="black"/>
+      <text transform="translate(958 1620.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".184" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.296" y="24" textLength="83.52">orker C</tspan>
+      </text>
+      <rect x="118" y="860.75" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 862.9975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="44.4125">e_3;2</tspan>
+      </text>
+      <rect x="118" y="829" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 831.2475)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="44.4125">e_2;3</tspan>
+      </text>
+      <rect x="118" y="797.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 799.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.31625">e_1;5</tspan>
+      </text>
+      <text transform="translate(118 768.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="41.65">Block_1</tspan>
+      </text>
+      <path d="M 337.5 940.5 C 354.55 940.5 368.345 926.55 368.345 909.5 L 368.5 754.5 C 368.5 737.45 354.55 723.5 337.5 723.5 L 89.5 723.5 C 72.45 723.5 58.5 737.45 58.5 754.5 L 58.5 909.5 C 58.5 926.55 72.45 940.5 89.5 940.5 L 27.5 940.5 L 27.5 971.5 L 399.5 971.5 L 399.5 940.5 L 337.5 940.5 Z M 89.5 754.5 L 337.5 754.5 L 337.5 909.5 L 89.5 909.5 L 89.5 754.5 Z" fill="black"/>
+      <text transform="translate(159.5 931.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".24" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.352" y="24" textLength="84.408">orker A</tspan>
+      </text>
+      <rect x="118" y="1209.75" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 1211.9975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="45.6025">e_2;4</tspan>
+      </text>
+      <rect x="118" y="1178" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 1180.2475)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="46.6225">e_4;3</tspan>
+      </text>
+      <rect x="118" y="1146.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 1148.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.2525">e_1;6</tspan>
+      </text>
+      <text transform="translate(118 1117.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="47.775">Block_2</tspan>
+      </text>
+      <path d="M 337.5 1289.5 C 354.55 1289.5 368.345 1275.55 368.345 1258.5 L 368.5 1103.5 C 368.5 1086.45 354.55 1072.5 337.5 1072.5 L 89.5 1072.5 C 72.45 1072.5 58.5 1086.45 58.5 1103.5 L 58.5 1258.5 C 58.5 1275.55 72.45 1289.5 89.5 1289.5 L 27.5 1289.5 L 27.5 1320.5 L 399.5 1320.5 L 399.5 1289.5 L 337.5 1289.5 Z M 89.5 1103.5 L 337.5 1103.5 L 337.5 1258.5 L 89.5 1258.5 L 89.5 1103.5 Z" fill="black"/>
+      <text transform="translate(160.5 1282.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".128" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.24" y="24" textLength="82.632">orker B</tspan>
+      </text>
+      <rect x="118" y="1547.75" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 1549.9975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="45.6025">e_4;2</tspan>
+      </text>
+      <rect x="118" y="1516" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 1518.2475)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="45.4325">e_3;3</tspan>
+      </text>
+      <rect x="118" y="1484.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(132 1486.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.975">e_1;3</tspan>
+      </text>
+      <text transform="translate(118 1455.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="48.615">Block_3</tspan>
+      </text>
+      <path d="M 337.5 1627.5 C 354.55 1627.5 368.345 1613.55 368.345 1596.5 L 368.5 1441.5 C 368.5 1424.45 354.55 1410.5 337.5 1410.5 L 89.5 1410.5 C 72.45 1410.5 58.5 1424.45 58.5 1441.5 L 58.5 1596.5 C 58.5 1613.55 72.45 1627.5 89.5 1627.5 L 27.5 1627.5 L 27.5 1658.5 L 399.5 1658.5 L 399.5 1627.5 L 337.5 1627.5 Z M 89.5 1441.5 L 337.5 1441.5 L 337.5 1596.5 L 89.5 1596.5 L 89.5 1441.5 Z" fill="black"/>
+      <text transform="translate(160.5 1620.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".184" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.296" y="24" textLength="83.52">orker C</tspan>
+      </text>
+      <line x1="368.407" y1="1196.5" x2="846.1" y2="1196.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="440.5733" y="1169.5" width="305" height="54" fill="white"/>
+      <text transform="translate(445.5733 1174.5)" fill="black">
+        <tspan font-family="Avenir" font-size="32" font-weight="500" x=".236" y="32" textLength="294.528">filter(name=name_1)</tspan>
+      </text>
+      <line x1="368.407" y1="847.5" x2="846.1" y2="847.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="449.93063" y="820.5" width="305" height="54" fill="white"/>
+      <text transform="translate(454.93063 825.5)" fill="black">
+        <tspan font-family="Avenir" font-size="32" font-weight="500" x=".236" y="32" textLength="294.528">filter(name=name_1)</tspan>
+      </text>
+      <line x1="368.407" y1="1534.5" x2="846.1" y2="1534.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="443.72347" y="1507.5" width="305" height="54" fill="white"/>
+      <text transform="translate(448.72347 1512.5)" fill="black">
+        <tspan font-family="Avenir" font-size="32" font-weight="500" x=".236" y="32" textLength="294.528">filter(name=name_1)</tspan>
+      </text>
+      <rect x="1717" y="797.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1731 799.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="40.31125">e_1;10</tspan>
+      </text>
+      <text transform="translate(1717 768.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="41.65">Block_1</tspan>
+      </text>
+      <path d="M 1936.5 940.5 C 1953.55 940.5 1967.345 926.55 1967.345 909.5 L 1967.5 754.5 C 1967.5 737.45 1953.55 723.5 1936.5 723.5 L 1688.5 723.5 C 1671.45 723.5 1657.5 737.45 1657.5 754.5 L 1657.5 909.5 C 1657.5 926.55 1671.45 940.5 1688.5 940.5 L 1626.5 940.5 L 1626.5 971.5 L 1998.5 971.5 L 1998.5 940.5 L 1936.5 940.5 Z M 1688.5 754.5 L 1936.5 754.5 L 1936.5 909.5 L 1688.5 909.5 L 1688.5 754.5 Z" fill="black"/>
+      <text transform="translate(1758.5 931.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".24" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.352" y="24" textLength="84.408">orker A</tspan>
+      </text>
+      <rect x="1717" y="1146.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1731 1148.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="39.61">e_1;12</tspan>
+      </text>
+      <text transform="translate(1717 1117.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="47.775">Block_2</tspan>
+      </text>
+      <path d="M 1936.5 1289.5 C 1953.55 1289.5 1967.345 1275.55 1967.345 1258.5 L 1967.5 1103.5 C 1967.5 1086.45 1953.55 1072.5 1936.5 1072.5 L 1688.5 1072.5 C 1671.45 1072.5 1657.5 1086.45 1657.5 1103.5 L 1657.5 1258.5 C 1657.5 1275.55 1671.45 1289.5 1688.5 1289.5 L 1626.5 1289.5 L 1626.5 1320.5 L 1998.5 1320.5 L 1998.5 1289.5 L 1936.5 1289.5 Z M 1688.5 1103.5 L 1936.5 1103.5 L 1936.5 1258.5 L 1688.5 1258.5 L 1688.5 1103.5 Z" fill="black"/>
+      <text transform="translate(1759.5 1282.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".128" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.24" y="24" textLength="82.632">orker B</tspan>
+      </text>
+      <rect x="1717" y="1484.25" width="191" height="31.75" stroke="black" stroke-opacity=".1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1731 1486.4975)" fill="black">
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="0" y="22" textLength="15.47">na</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="15.91625" y="22" textLength="10.81625">m</tspan>
+        <tspan font-family="Noteworthy" font-size="17" font-weight="300" x="27.00875" y="22" textLength="36.2525">e_1;6</tspan>
+      </text>
+      <text transform="translate(1717 1455.54)" fill="#929292">
+        <tspan font-family="Noteworthy" font-size="14" font-weight="300" fill="#929292" x="0" y="18" textLength="48.615">Block_3</tspan>
+      </text>
+      <path d="M 1936.5 1627.5 C 1953.55 1627.5 1967.345 1613.55 1967.345 1596.5 L 1967.5 1441.5 C 1967.5 1424.45 1953.55 1410.5 1936.5 1410.5 L 1688.5 1410.5 C 1671.45 1410.5 1657.5 1424.45 1657.5 1441.5 L 1657.5 1596.5 C 1657.5 1613.55 1671.45 1627.5 1688.5 1627.5 L 1626.5 1627.5 L 1626.5 1658.5 L 1998.5 1658.5 L 1998.5 1627.5 L 1936.5 1627.5 Z M 1688.5 1441.5 L 1936.5 1441.5 L 1936.5 1596.5 L 1688.5 1596.5 L 1688.5 1441.5 Z" fill="black"/>
+      <text transform="translate(1759.5 1620.5)" fill="white">
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x=".184" y="24" textLength="23.544">W</tspan>
+        <tspan font-family="Avenir" font-size="24" font-weight="bold" fill="white" x="23.296" y="24" textLength="83.52">orker C</tspan>
+      </text>
+      <line x1="1165.907" y1="847.5" x2="1647.6" y2="847.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1165.907" y1="1196.5" x2="1647.6" y2="1196.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1165.907" y1="1534.5" x2="1647.6" y2="1534.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1267.0954" y="820.5" width="269" height="54" fill="white"/>
+      <text transform="translate(1272.0954 825.5)" fill="black">
+        <tspan font-family="Avenir" font-size="32" font-weight="500" fill="black" x=".284" y="32" textLength="258.432">select(amount * 2)</tspan>
+      </text>
+      <rect x="1276.837" y="1169.5" width="269" height="54" fill="white"/>
+      <text transform="translate(1281.837 1174.5)" fill="black">
+        <tspan font-family="Avenir" font-size="32" font-weight="500" x=".284" y="32" textLength="258.432">select(amount * 2)</tspan>
+      </text>
+      <rect x="1272.5795" y="1507.5" width="269" height="54" fill="white"/>
+      <text transform="translate(1277.5795 1512.5)" fill="black">
+        <tspan font-family="Avenir" font-size="32" font-weight="500" x=".284" y="32" textLength="258.432">select(amount * 2)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

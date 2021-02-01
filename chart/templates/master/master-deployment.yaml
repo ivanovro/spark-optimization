@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "spark-optimization.master" . }}
+  labels:
+  {{- include "spark-optimization.commonLabels" . | indent 4 }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+  {{- include "spark-optimization.masterSelectorLabels" . | indent 6 }}
+  template:
+    metadata:
+      labels:
+    {{- include "spark-optimization.masterSelectorLabels" . | indent 8 }}
+    spec:
+      hostname: spark-master
+      containers:
+        - name: {{ include "spark-optimization.master" . }}
+          image: "{{ .Values.image.sparkMaster.repository }}:{{ .Values.image.sparkMaster.tag }}"
+          imagePullPolicy: {{ .Values.image.sparkMaster.pullPolicy }}
+          resources:
+          {{- toYaml .Values.resources | nindent 12 }}
+          stdin: true
+          tty: true
+          ports:
+            - containerPort: {{ .Values.services.sparkMaster.apiTargetPort }}
+            - containerPort: {{ .Values.services.sparkMaster.uiTargetPort }}
+          volumeMounts:
+      {{- include "spark-client.pod-volumeMounts-shared" . | nindent 10 }}
+      volumes:
+  {{- include "spark-optimization.pod-volumes-share-pvc" . | nindent 6 }}

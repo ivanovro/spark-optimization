@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="94 122 1999 1235" width="1999pt" height="1235pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2017-12-12 14:36:39 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Avenir Next" font-size="16" panose-1="2 11 5 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="500">
+      <font-face-src>
+        <font-face-name name="AvenirNext-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Avenir" font-size="16" panose-1="2 0 5 3 2 0 0 2 0 3" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Avenir-Book"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Avenir" font-size="30" panose-1="2 0 5 3 2 0 0 2 0 3" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="468" cap-height="708" ascent="1e3" descent="-365.9973" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Avenir-Book"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>caching</title>
+    <rect fill="white" width="1998.5" height="1234.4558"/>
+    <g>
+      <title>Layer 2</title>
+      <rect x="111" y="259" width="268" height="148.5" fill="white"/>
+      <rect x="111" y="259" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(116 267.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(116 232)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="0" y="16" textLength="62.208">File1.par</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="61.92" y="16" textLength="32.88">quet</tspan>
+      </text>
+      <line x1="379" y1="333.25" x2="535.6" y2="333.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="405.0783" y="317.25" width="101" height="32" fill="white"/>
+      <text transform="translate(410.0783 322.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".316" y="16" textLength="47.68">spark.r</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="47.708" y="16" textLength="42.976">ead…</tspan>
+      </text>
+      <rect x="945.5" y="259" width="268" height="148.5" fill="white"/>
+      <rect x="945.5" y="259" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="813.5" y1="333.25" x2="935.6" y2="333.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="832.855" y="317.25" width="89" height="32" fill="white"/>
+      <text transform="translate(837.855 322.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".388" y="16" textLength="78.224">df1.select..</tspan>
+      </text>
+      <rect x="545.5" y="259" width="268" height="148.5" fill="white"/>
+      <rect x="545.5" y="259" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(550.5 236)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".296" y="16" textLength="23.408">df1</tspan>
+      </text>
+      <rect x="102.75" y="602.5" width="268" height="148.5" fill="white"/>
+      <rect x="102.75" y="602.5" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(107.75 610.75)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(107.75 575.5)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="0" y="16" textLength="62.208">File1.par</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="61.92" y="16" textLength="32.88">quet</tspan>
+      </text>
+      <line x1="370.75" y1="676.75" x2="527.35" y2="676.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="396.8283" y="660.75" width="101" height="32" fill="white"/>
+      <text transform="translate(401.8283 665.75)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".316" y="16" textLength="47.68">spark.r</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="47.708" y="16" textLength="42.976">ead…</tspan>
+      </text>
+      <rect x="937.25" y="602.5" width="268" height="148.5" fill="white"/>
+      <rect x="937.25" y="602.5" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(942.25 610.75)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <line x1="805.25" y1="676.75" x2="927.35" y2="676.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="824.605" y="660.75" width="89" height="32" fill="white"/>
+      <text transform="translate(829.605 665.75)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".388" y="16" textLength="78.224">df1.select..</tspan>
+      </text>
+      <rect x="537.25" y="602.5" width="268" height="148.5" fill="white"/>
+      <rect x="537.25" y="602.5" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(542.25 610.75)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(542.25 579.5)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".296" y="16" textLength="23.408">df1</tspan>
+      </text>
+      <rect x="1348.25" y="602.5" width="268" height="148.5" fill="white"/>
+      <rect x="1348.25" y="602.5" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1353.25 665.75)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="124.552" y="16" textLength="8.896">6</tspan>
+      </text>
+      <line x1="1205.25" y1="676.75" x2="1338.35" y2="676.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1228.9018" y="660.75" width="79" height="32" fill="white"/>
+      <text transform="translate(1233.9018 665.75)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".42" y="16" textLength="68.16">df1.count</tspan>
+      </text>
+      <rect x="95" y="921" width="268" height="148.5" fill="white"/>
+      <rect x="95" y="921" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(100 929.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(100 894)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="0" y="16" textLength="62.208">File1.par</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="61.92" y="16" textLength="32.88">quet</tspan>
+      </text>
+      <line x1="363" y1="995.25" x2="519.6" y2="995.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="389.0783" y="979.25" width="101" height="32" fill="white"/>
+      <text transform="translate(394.0783 984.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".316" y="16" textLength="47.68">spark.r</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="47.708" y="16" textLength="42.976">ead…</tspan>
+      </text>
+      <rect x="929.5" y="921" width="268" height="148.5" fill="white"/>
+      <rect x="929.5" y="921" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(934.5 929.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <line x1="797.5" y1="995.25" x2="919.6" y2="995.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="816.855" y="979.25" width="89" height="32" fill="white"/>
+      <text transform="translate(821.855 984.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".388" y="16" textLength="78.224">df1.select..</tspan>
+      </text>
+      <rect x="529.5" y="921" width="268" height="148.5" fill="white"/>
+      <rect x="529.5" y="921" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(534.5 929.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(534.5 898)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".296" y="16" textLength="23.408">df1</tspan>
+      </text>
+      <rect x="1779.5" y="921" width="268" height="148.5" fill="white"/>
+      <rect x="1779.5" y="921" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1341.5" y="922" width="268" height="148.5" fill="white"/>
+      <rect x="1341.5" y="922" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="817.855" y="980.25" width="89" height="32" fill="white"/>
+      <text transform="translate(822.855 985.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".388" y="16" textLength="78.224">df1.select..</tspan>
+      </text>
+      <line x1="1197.5" y1="995.5752" x2="1331.6" y2="995.9007" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1609.5" y1="995.9441" x2="1769.6" y2="995.5785" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1228.2915" y="979.7446" width="78" height="32" fill="white"/>
+      <text transform="translate(1233.2915 984.7446)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".392" y="16" textLength="59.792">df1.filter</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="58.712" y="16" textLength="8.896">..</tspan>
+      </text>
+      <rect x="1655.263" y="979.7494" width="79" height="32" fill="white"/>
+      <text transform="translate(1660.263 984.7494)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".42" y="16" textLength="68.16">df1.count</tspan>
+      </text>
+      <text transform="translate(1495 212)" fill="black">
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x=".06" y="30" textLength="260.1">Calling .cache won’</tspan>
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x="259.62" y="30" textLength="178.32">t do anything</tspan>
+      </text>
+      <line x1="1542.1604" y1="207" x2="1130.6429" y2="145.9332" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 1024.8241 259 C 1005.8098 227.9556 991.0814 194.43514 999.4412 174.08824 C 1018.3266 128.12278 1123.48 125.91143 1146.1611 171.00276 C 1155.503 189.5751 1145.8405 220.373 1131.2439 250.17473" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1040.8501" y="122.54424" width="80" height="32" fill="white"/>
+      <text transform="translate(1045.8501 127.54424)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" fill="black" x=".312" y="16" textLength="69.376">df1.cache</tspan>
+      </text>
+      <path d="M 1018.3902 602.5 C 999.5629 570.7116 984.9425 536.17186 993.7174 515.30453 C 1013.3186 468.6921 1118.472 466.48075 1140.4373 512.21906 C 1149.6046 531.30796 1139.0688 563.1216 1123.6793 593.7136" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1036.0869" y="463.30365" width="80" height="32" fill="white"/>
+      <text transform="translate(1041.0869 468.30365)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".312" y="16" textLength="69.376">df1.cache</tspan>
+      </text>
+      <text transform="translate(1248 438.30365)" fill="black">
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x="62.095" y="30" textLength="237.15">Calling count will </tspan>
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x=".43" y="71" textLength="352.14">materialise the DataFrame</tspan>
+      </text>
+      <line x1="1388.133" y1="525.30365" x2="1287.191" y2="652.98386" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1640 645)" fill="black">
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x=".47" y="30" textLength="404.25">Calling count again will start fr</tspan>
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x="404.18" y="30" textLength="43.35">om</tspan>
+        <tspan font-family="Avenir" font-size="30" font-weight="500" x="28.145" y="71" textLength="400.05">The latest cached DataFrame </tspan>
+      </text>
+      <line x1="1838.867" y1="732" x2="1708.2516" y2="971.0616" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path d="M 1009.8834 921 C 997.3812 897.7703 990.0009 874.2935 998.9089 859.2027 C 1022.1764 819.7857 1127.3298 817.5744 1145.6288 856.1173 C 1152.0574 869.6578 1143.8328 890.8563 1130.4572 912.6608" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1035.7608" y="812.3995" width="80" height="32" fill="white"/>
+      <text transform="translate(1040.7608 817.3995)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".312" y="16" textLength="69.376">df1.cache</tspan>
+      </text>
+      <rect x="95" y="1207" width="268" height="148.5" fill="white"/>
+      <rect x="95" y="1207" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(100 1215.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(100 1180)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="0" y="16" textLength="62.208">File1.par</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="61.92" y="16" textLength="32.88">quet</tspan>
+      </text>
+      <line x1="363" y1="1281.25" x2="519.6" y2="1281.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="389.0783" y="1265.25" width="101" height="32" fill="white"/>
+      <text transform="translate(394.0783 1270.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".316" y="16" textLength="47.68">spark.r</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="47.708" y="16" textLength="42.976">ead…</tspan>
+      </text>
+      <rect x="929.5" y="1207" width="268" height="148.5" fill="white"/>
+      <rect x="929.5" y="1207" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(934.5 1215.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <line x1="797.5" y1="1281.25" x2="919.6" y2="1281.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="816.855" y="1265.25" width="89" height="32" fill="white"/>
+      <text transform="translate(821.855 1270.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".388" y="16" textLength="78.224">df1.select..</tspan>
+      </text>
+      <rect x="529.5" y="1207" width="268" height="148.5" fill="white"/>
+      <rect x="529.5" y="1207" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(534.5 1215.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="58.416"> sed do </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="20.296" y="60" textLength="221.408">eiusmod tempor incididunt ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="6.448" y="82" textLength="38.304">labor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="44.464" y="82" textLength="70.912">e et dolor</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="115.088" y="82" textLength="116.512">e magna aliqua.</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="231.12" y="82" textLength="24.432"> Ut </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="26.984" y="104" textLength="169.952">enim ad minim veniam,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="196.456" y="104" textLength="38.56"> quis </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="94.512" y="126" textLength="68.976">nostrud...</tspan>
+      </text>
+      <text transform="translate(534.5 1184)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".296" y="16" textLength="23.408">df1</tspan>
+      </text>
+      <rect x="1779.5" y="1207" width="268" height="148.5" fill="white"/>
+      <rect x="1779.5" y="1207" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1784.5 1270.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" fill="black" x="124.552" y="16" textLength="8.896">2</tspan>
+      </text>
+      <rect x="1341.5" y="1208" width="268" height="148.5" fill="white"/>
+      <rect x="1341.5" y="1208" width="268" height="148.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1346.5 1260.25)" fill="black">
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="27.312" y="16" textLength="8.16">L</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="35.184" y="16" textLength="15.536">or</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="50.432" y="16" textLength="180.736">em ipsum dolor sit amet,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="230.688" y="16" textLength="4"> </tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="4.28" y="38" textLength="195.504">consectetur adipiscing elit,</tspan>
+        <tspan font-family="Avenir Next" font-size="16" font-weight="500" x="199.304" y="38" textLength="54.416"> sed do</tspan>
+      </text>
+      <rect x="817.855" y="1266.25" width="89" height="32" fill="white"/>
+      <text transform="translate(822.855 1271.25)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".388" y="16" textLength="78.224">df1.select..</tspan>
+      </text>
+      <line x1="1197.5" y1="1281.5752" x2="1331.6" y2="1281.9007" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1609.5" y1="1281.944" x2="1769.6" y2="1281.5785" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1228.2915" y="1265.7446" width="78" height="32" fill="white"/>
+      <text transform="translate(1233.2915 1270.7446)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".392" y="16" textLength="59.792">df1.filter</tspan>
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x="58.712" y="16" textLength="8.896">..</tspan>
+      </text>
+      <rect x="1655.263" y="1265.7494" width="79" height="32" fill="white"/>
+      <text transform="translate(1660.263 1270.7494)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".42" y="16" textLength="68.16">df1.count</tspan>
+      </text>
+      <path d="M 1009.8834 1207 C 997.3812 1183.7703 990.0009 1160.2935 998.9089 1145.2027 C 1022.1764 1105.7857 1127.3298 1103.5744 1145.6288 1142.1173 C 1152.0574 1155.6578 1143.8328 1176.8563 1130.4572 1198.6608" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1035.7608" y="1098.3995" width="80" height="32" fill="white"/>
+      <text transform="translate(1040.7608 1103.3995)" fill="black">
+        <tspan font-family="Avenir" font-size="16" font-weight="500" x=".312" y="16" textLength="69.376">df1.cache</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

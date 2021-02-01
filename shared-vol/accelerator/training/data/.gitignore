@@ -1,0 +1,8 @@
+*.zip
+*.csv
+*.txt
+NASA*
+complete-day.parquet*
+airlines.parquet*
+words
+

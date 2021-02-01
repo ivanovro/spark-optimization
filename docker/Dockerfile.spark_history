@@ -1,0 +1,8 @@
+FROM spark-base
+
+# -- Runtime
+
+ARG spark_history_web_ui=4040
+EXPOSE ${spark_history_web_ui}
+
+CMD bin/spark-class org.apache.spark.deploy.history.HistoryServer >> /opt/workspace/logs/spark-history.out

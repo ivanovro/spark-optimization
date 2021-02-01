@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "spark-optimization.worker" . }}
+  labels:
+  {{- include "spark-optimization.commonLabels" . | indent 4 }}
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+  {{- include "spark-optimization.workerSelectorLabels" . | indent 6 }}
+  template:
+    metadata:
+      labels:
+    {{- include "spark-optimization.workerSelectorLabels" . | indent 8 }}
+    spec:
+      hostname: spark-master
+      containers:
+        - name: {{ include "spark-optimization.worker" . }}
+          image: "{{ .Values.image.sparkWorker.repository }}:{{ .Values.image.sparkWorker.tag }}"
+          imagePullPolicy: {{ .Values.image.sparkWorker.pullPolicy }}
+          env:
+            - name: SPARK_MASTER_HOST
+              value: {{ include "spark-optimization.masterService" . }}
+            - name: SPARK_MASTER_PORT
+              value: {{ .Values.services.sparkMaster.apiPort | quote }}
+          resources:
+          {{- toYaml .Values.resources | nindent 12 }}
+          stdin: true
+          tty: true
+          ports:
+            - containerPort: {{ .Values.services.sparkWorker.targetPort }}
+          volumeMounts:
+      {{- include "spark-client.pod-volumeMounts-shared" . | nindent 10 }}
+      volumes:
+  {{- include "spark-optimization.pod-volumes-share-pvc" . | nindent 6 }}

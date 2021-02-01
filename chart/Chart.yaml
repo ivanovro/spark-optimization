@@ -1,0 +1,19 @@
+apiVersion: v1
+version: 1.0.0
+appVersion: 3.0.1
+description: A Helm chart for Spark Optimization Training
+home: https://github.com/godatadriven/spark-optimization-training
+keywords:
+  - spark
+  - optimization
+  - training
+  - sparklint
+  - jupyterlab
+maintainers:
+  - email: romanivanov@godatadriven.com
+    name: Roman Ivanov
+  - email: oleksandrabovkun@godatadriven.com
+    name: Oleksandra Bovkun
+name: spark-optimization-training
+sources:
+  - https://github.com/godatadriven/spark-optimization-training

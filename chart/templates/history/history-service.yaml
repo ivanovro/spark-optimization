@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "spark-optimization.name" . }}-history-ui
+  labels:
+  {{- include "spark-optimization.commonLabels" . | indent 4 }}
+spec:
+  clusterIP: None
+  type: {{ .Values.services.sparkHistory.type }}
+  selector:
+  {{- include "spark-optimization.historySelectorLabels" . | indent 4 }}
+  ports:
+    - protocol: TCP
+      port: {{ .Values.services.sparkHistory.port }}
+      targetPort: {{ .Values.services.sparkHistory.targetPort }}
