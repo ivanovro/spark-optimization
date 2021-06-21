@@ -6,6 +6,9 @@ JUPYTERLAB_VERSION="2.1.5"
 
 # -- Building the Images
 
+export DOCKER_BUILDKIT=0
+export COMPOSE_DOCKER_CLI_BUILD=0
+
 docker build \
   -f Dockerfile.cluster_base \
   -t cluster-base \
