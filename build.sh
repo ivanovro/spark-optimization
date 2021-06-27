@@ -16,7 +16,7 @@ then
   echo "Running instruqt Docker build"
   cd docker
 else
-  echo "Running instruqt Docker build"
+  echo "Running local Docker build"
   cd docker-local
 fi
 
