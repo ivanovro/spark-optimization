@@ -4,26 +4,24 @@ Spark optimisation training and workshop
 ## Docker-based local environment
 
 ### Requirements
-We need up to 13G memory to run all required Docker containers. Don't forget to change this setting on Docker Desktop.
+We need up to 8-12G memory to run all required Docker containers. Don't forget to change this setting on Docker Desktop.
 
 ### Build Docker images
 This builds all images needed for the setup.
 ```
-cd docker-local; ./build.sh
+./build.sh
 ```
-
 
 ### Start application
 ```
 # download data, specify --with-csv if you want to download and unzip data in csv format (100Gb) as well
-cd shared-vol
-../collect_data.sh
+./collect_data.sh
 
 # this will start Docker compose application
 ./start.sh
 ```
 
-### Application URLs
+## Application URLs
 
 - [JupyterLab](http://localhost:8888)
 - [Spark master](http://localhost:8080/home)
@@ -45,9 +43,9 @@ SPARK_WORKER_CORES=<number of executors> docker-compose -f docker-local/docker-c
 ```
 
 ### Cleanup Docker env
-Removes all stopped containers and deletes images with intermediate layers.
+Removes all stopped containers, deletes images with intermediate layers, and named volumes.
 ```
-cd docker-local; ./cleanup.sh
+./cleanup.sh
 ```
 
 # Getting the data in the images when using Instruqt
