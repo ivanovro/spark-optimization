@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   jupyterlab:
-    image: jupyterlab
+    image: europe-west1-docker.pkg.dev/spark-optimization/training/jupyterlab
     container_name: jupyterlab
     expose:
       - 4040
@@ -15,7 +15,7 @@ services:
     volumes:
       - ${SHARED_DIR}:/opt/workspace
   spark-master:
-    image: spark-master
+    image: europe-west1-docker.pkg.dev/spark-optimization/training/spark-master
     container_name: spark-master
     expose:
       - 7077
@@ -26,7 +26,7 @@ services:
     volumes:
       - ${SHARED_DIR}:/opt/workspace
   spark-worker-1:
-    image: spark-worker
+    image: europe-west1-docker.pkg.dev/spark-optimization/training/spark-worker
     container_name: spark-worker-1
     environment:
       - SPARK_WORKER_CORES=${SPARK_WORKER_CORES:-1}
@@ -39,7 +39,7 @@ services:
     depends_on:
       - spark-master
   spark-worker-2:
-    image: spark-worker
+    image: europe-west1-docker.pkg.dev/spark-optimization/training/spark-worker
     container_name: spark-worker-2
     environment:
       - SPARK_WORKER_CORES=${SPARK_WORKER_CORES:-1}
@@ -52,7 +52,7 @@ services:
     depends_on:
       - spark-master
   spark-history:
-    image: spark-history
+    image: europe-west1-docker.pkg.dev/spark-optimization/training/spark-history
     container_name: spark-history
     environment:
       - SPARK_HISTORY_OPTS='-Dspark.history.fs.logDirectory=/opt/workspace/history'

@@ -5,9 +5,11 @@ FROM openjdk:${debian_buster_image_tag}
 
 ARG shared_workspace=/opt/workspace
 ARG spark_version=3.0.0
+ARG jupyterlab_version=2.1.5
 
 COPY requirements.txt /usr/bin/requirements.txt
 
+# -- Linux packages
 RUN mkdir -p ${shared_workspace} && \
     apt-get update -y && \
     apt-get install -y python3 && \
@@ -19,8 +21,13 @@ RUN mkdir -p ${shared_workspace} && \
     ln -s /usr/bin/python3 /usr/bin/python && \
     rm -rf /var/lib/apt/lists/*
 
+# -- Core libs
 RUN pip3 install --upgrade pip && \
-    pip3 install -r /usr/bin/requirements.txt
+    pip3 install pyspark==${spark_version} jupyterlab==${jupyterlab_version}
+
+# -- Extra libs
+
+RUN pip3 install -r /usr/bin/requirements.txt
 
 ENV SHARED_WORKSPACE=${shared_workspace}
 
