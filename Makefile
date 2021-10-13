@@ -29,7 +29,8 @@ up: ## Bring docker application up
 
 .PHONY: down
 down: ## Bring docker application down
-	docker-compose down -v
+	cd docker-local
+	docker-compose -f docker-local/docker-compose.yml down -v
 
 .PHONY: clean
 cleanup: ## Clean docker environment

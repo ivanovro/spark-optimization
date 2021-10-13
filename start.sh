@@ -30,5 +30,5 @@ then
   docker-compose -f docker/docker-compose.yml up
 else
   echo "Running local app"
-  docker-compose -f docker-local/docker-compose.yml up
+  docker-compose -f docker-local/docker-compose.yml up -d
 fi
