@@ -9,8 +9,8 @@ help:
 get-data: ## Download datasets
 	./collect_data.sh
 
-.PHONY: build_local
-build_local: ## Build docker images for local setup
+.PHONY: build
+build: ## Build docker images for local setup
 	cd docker-local
 	./build.sh
 
@@ -31,6 +31,6 @@ up: ## Bring docker application up
 down: ## Bring docker application down
 	docker-compose down -v
 
-.PHONY: cleanup
+.PHONY: clean
 cleanup: ## Clean docker environment
 	./cleanup.sh

@@ -7,18 +7,18 @@ Spark optimisation training and workshop
 We need up to 8-12G memory to run all required Docker containers. Don't forget to change this setting on Docker Desktop.
 
 ### Build Docker images
-This builds all images needed for the setup.
+This builds all images needed for the setup. You can avoid building images and use the ones set by default.
 ```
-./build.sh
+make build
 ```
 
 ### Start application
 ```
-# download data, specify --with-csv if you want to download and unzip data in csv format (100Gb) as well
-./collect_data.sh
+# download data
+make get-data
 
 # this will start Docker compose application
-./start.sh
+make up
 ```
 
 ## Application URLs
@@ -43,9 +43,9 @@ SPARK_WORKER_CORES=<number of executors> docker-compose -f docker-local/docker-c
 ```
 
 ### Cleanup Docker env
-Removes all stopped containers, deletes images with intermediate layers, and named volumes.
+Removes all stopped containers, deletes images with intermediate layers, named volumes and downloaded data.
 ```
-./cleanup.sh
+make clean
 ```
 
 # Getting the data in the images when using Instruqt

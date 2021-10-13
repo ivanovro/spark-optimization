@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Clean docker environment, remove all course related objects.
+# Clean docker environment, deletes downloaded data
 
 # remove containers
 docker rm spark-worker-1 spark-worker-2 spark-master spark-history jupyterlab sparklint
@@ -13,3 +13,5 @@ docker image prune -f
 docker volume rm --force spark-optimisation-training_shared-workspace
 docker volume rm --force docker_shared-workspace
 docker volume rm docker-local_shared-workspace
+
+rm -rf shared-vol/data
