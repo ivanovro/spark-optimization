@@ -16,7 +16,6 @@ make build
 ```
 # download data
 make get-data
-
 # this will start Docker compose application
 make up
 ```
