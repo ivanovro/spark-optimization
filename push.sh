@@ -3,8 +3,11 @@
 # Push recently built images to docker registry.
 #
 
-for image in cluster-base spark-master spark-history spark-worker jupyterlab; do
+registry="europe-west1-docker.pkg.dev/spark-optimization/training"
+images=("cluster-base", "spark-master", "spark-history spark-worker jupyterlab")
+
+for image in ${images[@]}; do
   echo "--- pushing $image ---"
-	docker tag $image:latest europe-west1-docker.pkg.dev/spark-optimization/training/$image:latest
-  docker push europe-west1-docker.pkg.dev/spark-optimization/training/$image:latest
+	docker tag $image:latest $registry/$image:latest
+  docker push $registry/$image:latest
 done

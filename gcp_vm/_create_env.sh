@@ -3,7 +3,7 @@
 
 set -e
 
-vm=$1
+vm=spark-optimization-$1
 vm="${vm//./-}"
 uip=$2
 
